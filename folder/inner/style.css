@@ -422,34 +422,38 @@ body{
 }
 .social-contacts__item{
     float:left;
+   
+}
+.social-contacts__link{
+    display: block;
     width: 19px;
     height: 19px;
     border-radius: 17px;
     background-color: #d0d0d0;
     margin-right: 11px;
 }
-.social-contacts__item:nth-child(1){
+.social-contacts__item:nth-child(1) a{
     background-image: url('../../image/vk.svg');
     background-repeat: no-repeat;
     background-position: 3px 6px;
    
 }
-.social-contacts__item:nth-child(2){
+.social-contacts__item:nth-child(2) a{
     background-image: url('../../image/fb.svg');
     background-position: 7px 3px;
     background-repeat: no-repeat;
 }
-.social-contacts__item:nth-child(3){
+.social-contacts__item:nth-child(3) a{
     background-image: url('../../image/twitter.svg');
     background-position: 4px 5px;
     background-repeat: no-repeat;
 }
-.social-contacts__item:nth-child(4){
+.social-contacts__item:nth-child(4) a{
     background-image: url('../../image/google.svg');
     background-position: 2px 4px;
     background-repeat: no-repeat;
 }
-.social-contacts__item:nth-child(5){
+.social-contacts__item:nth-child(5) a{
     background-image: url('../../image/mail.svg');
     background-position: 4px 4px;
     background-repeat: no-repeat;
