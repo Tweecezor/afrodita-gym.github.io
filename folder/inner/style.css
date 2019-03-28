@@ -251,10 +251,8 @@ body{
 }
 .news__content{
     float:left;
-}
-.news__content{
-   
     width: 900px;
+    font-family: 'Roboto', sans-serif, Arial;
 }
 .news-img{
     margin-left: 20px;
