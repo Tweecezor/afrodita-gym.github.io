@@ -12,9 +12,9 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="header__menu clearfix">
-                    <a href="index.html" class="header__logo">Афродита</a>
+                    <a href="index.html" class="header__logo logo">Афродита</a>
                     <nav class="navigation">
                         <ul class="nav-menu">
                             <li class="nav-menu__item">
@@ -29,7 +29,7 @@
                                         <?xpacket end="w"?></metadata>
                                         <image id="main_icon" width="19" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAOCAQAAABnEe8CAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAxkPGjSscOgaAAAAyklEQVQoz4XRr0tDARTF8Q/6wgaGgTCDjGGxrTmn+w8Ei0XQIAwsZsG/w2TwH/BfsFg0+YYwVhfEaFIwvPLgLviUt9/npAtfzuWeKxTeiK/o/U9TXvOnAzVHFqiMsb8aO0RTfRXW8Yn2cmzXpjt0cO92hituuYiIvRjFYySRRR478y/tygz0tbVUrLueDEu8aGBLXy515hxvrhyXqPfEs23wgBSXfpy6USlhH5NtVyOPiKdlX4DMsMhc2NuvUrzOKW4q/iS+oz67dAyfLm831rhNaAAAAABJRU5ErkJggg=="/>
                                     </svg>
-                                    <div class="nav-menu__text">Главная</div>
+                                    <span class="nav-menu__text">Главная</span>
                                 </a>
                             </li>
                             <li class="nav-menu__item">
@@ -44,7 +44,7 @@
                                         <?xpacket end="w"?></metadata>
                                         <image id="feed_icon" width="20" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAQAAADx2TabAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAxkPGjCrHSwDAAABI0lEQVQoz4WQP0tCcRSGn5tLi6NJNPoPXIJrH6B2F2nwI/SxWhprbw8RUeFK0FLipELeQacGpafB68V7g3p/w49z3odzOC+SezWXLq3l+/wCH1V9/A9seVDrb/A5BZ//Aq9VffNN1etjL7BAjSoVKlS44gy4BZ6AT0ZMmTLlg3fsmdXIwMBRrtvDdVrEDry3IWLDewfGqbfGGzeqvlj8FVXRF1U33iCGrlQdWspgJYeqrgwPV1edqTrOgGNVZ1aP47kwVncZcKfGXmRzLPilvopYtiziq/plYU+csFedU2BCkwfmzHmgyQQ4pZ4QycSuqgu/00C+XajazU68BOCcAIiIgIDzIycFG8kf0SEkpEOUc5LVd27t2zZIbw5s23fr3b7+AVuolIlgdbKWAAAAAElFTkSuQmCC"/>
                                     </svg>
-                                    <div class="nav-menu__text">Отзывы</div>
+                                    <span class="nav-menu__text">Отзывы</span>
                                 </a>
                             </li>
                             <li class="nav-menu__item">
@@ -60,7 +60,7 @@
                                         <image id="service_icon" width="19" height="14"
                                         xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAOCAQAAABnEe8CAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAxkPGiy/HHBMAAAAxElEQVQoz42RsU7CYBRGT5umxAHSgTchRGdWdn0Dd9wY3AgPwOaLOBhfgBA2THSSpYMDiZOJbexhKIT+Rhu+u9x7c/J9ubmImPps5VyCmli4sitSL0aq/tgJsA9Vb0RiIq7oAxBzQVMdADIuiXCqbqyVBW6fqr6p97j1pL8w1TzSRswjZWMakxzbEPtX8TkQJ9v2UMzPOOE9ZgG8tOS9Ag+IA69b3G4dSgKs6QJQ8RX4FADsWHH4aeqTpbNfr7/z26U9kT2ahs5FcO58kQAAAABJRU5ErkJggg=="/>
                                     </svg>
-                                    <div class="nav-menu__text">Услуги</div>
+                                    <span class="nav-menu__text">Услуги</span>
                                 </a>
                             </li>
                         </ul>
@@ -71,11 +71,12 @@
                     </div>
                 </div>
             </div>
+           
+        </header>
+        <main class="main-content">
             <div class="header__picture">
                 <img src="image/just-do-it.png" alt="Мотивирующая картинка just do it" class="just-do-it">
             </div>
-        </header>
-        <main class="main-content">
             <div class="container-features">
                 <div class="features">
                     <h2 class="caption">Особенности</h2>
@@ -96,8 +97,9 @@
                                 </div>
                                 <h3 class="featrues__topic">Уникальность</h3>
                                 <div class="features__text">
-                                    <p class="">Мы делаем все,</p>
-                                    <p class="uniq-p-wrap">для вашего комфорта</p>
+                                    <p class="">Мы делаем все,
+                                    <span class="uniq-p-wrap">для вашего комфорта</span>
+                                    </p>
                                     <ul class="features__adv-list">
                                         <li class="features__adv-item">Питание включено</li>
                                         <li class="features__adv-item">Багаж(5кг)</li>
@@ -120,8 +122,9 @@
                                 </div>
                                 <h3 class="featrues__topic">Премиус-класс</h3>
                                 <div class="features__text">
-                                    <p class="">Наш зал оборудован</p>
-                                    <p class="premium-p-wrap">тренажерами А-класса</p>
+                                    <p class="">Наш зал оборудован
+                                    <span class="premium-p-wrap">тренажерами А-класса</span>
+                                    </p>
                                     <ul class="features__adv-list premium">
                                         <li class="features__adv-item">Качество</li>
                                         <li class="features__adv-item">Продуктивность</li> 
@@ -144,8 +147,9 @@
                                 </div>
                                 <h3 class="featrues__topic">Личный тренер</h3>
                                 <div class="features__text">
-                                    <p>Тренер сделает все</p>
-                                    <p class="personal-p-wrap">для вашего результата</p>
+                                    <p>Тренер сделает все
+                                    <span class="personal-p-wrap">для вашего результата</span>
+                                    </p>
                                     <ul class="features__adv-list personal">
                                         <li class="features__adv-item">Программа</li>
                                         <li class="features__adv-item">Питание</li> 
@@ -200,36 +204,6 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="pagination">
-                                <div class="pagination__display">Страница 1 из 7</div>
-                                <div class="pagination__controlls">
-                                    <a href="#" class="pagination__prev"><</a>
-                                    <ul class="pagination__pages">
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">1</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">2</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">3</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">4</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">5</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">6</a>
-                                        </li>
-                                        <li class="pagination__pages-item">
-                                        <a href="#" class="pagination__link">7</a>
-                                        </li>
-                                    </ul>
-                                    <a href="#" class="pagination__next">></a>
-                                </div>
-                            </div>
                         </div>
                         <div class="sidenews">
                             <div class="sidenews__container">
@@ -239,21 +213,80 @@
                                 </h3>
                                 <ul class="sidenews__list">
                                     <li class="sidenews__item">
-                                        <div class="sidenews__pic">
-                                            <img src="image/training.png" alt="" class="sidenews__pic-icon">
-                                        </div>
+                                        <!-- <div class="sidenews__pic"> -->
+                                            <img class="sidenews__pic" src="image/training.png" alt="" class="sidenews__pic-icon">
+                                        <!-- </div> -->
                                     </li>
                                     <li class="sidenews__item">
-                                        <div class="sidenews__pic">
-                                            <img src="image/cooking.png" alt="" class="sidenews__pic-icon">
-                                        </div>
+                                        <!-- <div class="sidenews__pic"> -->
+                                            <img class="sidenews__pic" src="image/cooking.png" alt="" class="sidenews__pic-icon">
+                                        <!-- </div> -->
                                     </li>
                                     <li class="sidenews__item">
-                                        <div class="sidenews__pic">
-                                            <img src="image/steel.png" alt="" class="sidenews__pic-icon">
-                                        </div>
+                                        <!-- <div class="sidenews__pic"> -->
+                                            <img class="sidenews__pic" src="image/steel.png" alt="" class="sidenews__pic-icon">
+                                        <!-- </div> -->
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <div class="pagination__display">Страница 1 из 7</div>
+                            <div class="pagination__controlls">
+                                <a href="#" class="pagination__prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10" viewBox="0 0 6 10">
+                                        <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                                        <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+                                            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                            <rdf:Description rdf:about=""/>
+                                            </rdf:RDF>
+                                        </x:xmpmeta>                         
+                                        <?xpacket end="w"?></metadata>
+                                        <defs>
+                                            <style>
+                                            .cls-1 {
+                                                opacity: 0.3;
+                                            }
+                                            </style>
+                                        </defs>
+                                        <image id="Vector_Smart_Object" data-name="Vector Smart Object" class="cls-1" width="6" height="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJFBMVEUAAAAiHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8AAAAmAjngAAAAC3RSTlMAJDVNICZMHSkbS18MnKQAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wMeCi8eTuYZKAAAACRJREFUCNdjYGAQYmBgNGFgCCtg4MhkYOiaAMEgNkgMLMcgBABnoAUxI0luiwAAAABJRU5ErkJggg=="/>
+                                    </svg>
+                                </a>
+                                <ul class="pagination__pages">
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">1</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">2</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">3</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">4</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">5</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">6</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                    <a href="#" class="pagination__link">7</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="pagination__next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10" viewBox="0 0 6 10">
+                                        <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                                        <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+                                            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                            <rdf:Description rdf:about=""/>
+                                            </rdf:RDF>
+                                        </x:xmpmeta>                       
+                                        <?xpacket end="w"?></metadata>
+                                        <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="6" height="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAALVBMVEUAAAAiHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8iHx8AAAAn0gM8AAAADXRSTlMAsHdpeGD9f1uIWvpZ/eFHEgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjAx4KLx5O5hkoAAAAJklEQVQI12MQYmBgsHVgYGBNBzLaJjAwcO1kYODZCWaDxEByQDUAb4IFqxvmThcAAAAASUVORK5CYII="/>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +303,7 @@
                         Автор работы: <bold>Еремеев Никита</bold>
                     </p>
                 </div>
-                <a href="#" class="footer__logo">Афродита</a>
+                <a href="#" class="footer__logo logo">Афродита</a>
                 <div class="social-contacts">
                     <p class="social-contacts__text">
                         Наши социальные сети
@@ -298,3 +331,13 @@
     </div>
 </body>
 </html>
+
+<!-- 
+вопросы 
+по 1 пункту - если я сделаю так, то у меня другие элементы не будут по центру.
+по 6 и 8 ( обертка сделана, чтобы отцентровать контент и добавить цвет фона)
+7 - разбиваю, чтобы подвинуть текст как в макете, иначе как я его подвину?  
+9 - а что тут не так? Она не может входить в newsblock?
+10 -  по поводу этого пунка я руководстваовался прошлым вебинаром и там какждая картинка оборачивалась в див  
+
+-->
